@@ -14,56 +14,56 @@ public class Species {
   }
 
   /**
-   * @param p_species
+   * @param p_species set name of Species
    */
   public void setSpecies(String p_species){
     m_species = p_species;
   };
   
   /**
-   * @return
+   * @return the name member of Species of the Species
    */
   public String getSpecies(){
     return m_species;
   }
 
   /**
-   * @param p_gestationTime
+   * @param p_gestationTime  set gestationTime member of Species in month
    */
   public void setGestationTime(int p_gestationTime) {
     m_gestationTime = p_gestationTime;
   };
 
   /**
-   * @return
+   * @return gestationTime member of Species value in month
    */
   public int getGestationTime() {
     return m_gestationTime;
   }
 
   /**
-   * @param p_lifeExpectancy
+   * @param p_lifeExpectancy set lifeExpectancy member of Species value in years
    */
   public void setLifeExpectancy(int p_lifeExpectancy) {
     m_lifeExpectancy = p_lifeExpectancy;
   };
 
   /**
-   * @return
+   * @return lifeExpectancy member of Species value in years
    */
   public int getLifeExpectancy() {
     return m_lifeExpectancy;
   }
 
   /**
-   * @param p_race
+   * @param p_race set String race member of Species 
    */
   public void setRace(String p_race) {
     m_race = p_race;
   } 
   
   /**
-   * @return
+   * @return String race member of Species
    */
   public String getRace() {
     return m_race;
